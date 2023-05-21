@@ -56,7 +56,7 @@ const Days = () => {
 
 					<Entypo
 						style={{
-							marginLeft: 60,
+							marginLeft: 50,
 							position: "absolute",
 							left: 240,
 							color: "#c0c0c0",
@@ -75,7 +75,7 @@ const Days = () => {
 				>
 					<View style={styles.two}>
 						<View style={{ flexDirection: "column" }}>
-							<View style={{ flexDirection: "row" }}>
+							<View style={{ flexDirection: "row", marginBottom: 8 }}>
 								<Ionicons
 									name="shield-checkmark-outline"
 									size={24}
@@ -91,7 +91,7 @@ const Days = () => {
 					</View>
 					<View style={styles.three}>
 						<View style={{ flexDirection: "column" }}>
-							<View style={{ flexDirection: "row" }}>
+							<View style={{ flexDirection: "row", marginBottom: 8 }}>
 								<EvilIcons name="clock" size={28} color="#7eb293" />
 								<Text style={{ color: "#c0c0c0", fontFamily: "custom-font" }}>
 									{" "}
@@ -105,14 +105,14 @@ const Days = () => {
 				<View style={[styles.box, { marginBottom: 10 }]}>
 					<View style={styles.two}>
 						<View style={{ flexDirection: "column" }}>
-							<View style={{ flexDirection: "row" }}>
+							<View style={{ flexDirection: "row", marginBottom: 8 }}>
 								<Ionicons
 									style={{ fontWeight: "500" }}
 									name="search-outline"
 									size={24}
 									color="#69abce"
 								/>
-								<Text style={{ color: "#c0c0c0", fontFamily: "custom-font" }}>
+								<Text style={{ color: "#c0c0c0", fontFamily: "custom-font", position: 'absolute', left: 24, top: 2 }}>
 									{" "}
 									29
 								</Text>
@@ -122,7 +122,7 @@ const Days = () => {
 					</View>
 					<View style={styles.three}>
 						<View style={{ flexDirection: "column" }}>
-							<View style={{ flexDirection: "row" }}>
+							<View style={{ flexDirection: "row", marginBottom: 9 }}>
 								<MaterialCommunityIcons
 									name="message-off-outline"
 									size={24}

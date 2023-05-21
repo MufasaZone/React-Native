@@ -62,7 +62,7 @@ const Item = ({ item, onPress, backgroundColor, textColor, icon }) => (
 				styles.title,
 				{
 					borderColor: "#4e4e4e",
-					width: "85%",
+					width: "80%",
 					borderBottomWidth: 1,
 					flexDirection: "row",
 					justifyContent: "space-between",
@@ -72,34 +72,14 @@ const Item = ({ item, onPress, backgroundColor, textColor, icon }) => (
 			<Text style={{ color: "#c0c0c0", fontFamily: "custom-font" }}>
 				{item.title}
 			</Text>
-			{/* {item.end && (
-				<Text
-					style={{
-						marginLeft: 40,
-						position: "absolute",
-						backgroundColor: "#409fff",
-						left: 230,
-						top: 20,
-						backgroundColor: "red",
-						borderRadius: 50,
-						width: 50,
-						justifyContent: "center",
-						alignContent: 'center'
-					}}
-				> */}
-					{/* 1 */}
-					{/* <View style={styles.notification}>
-						<Text style={{ color: "black" }}>1</Text>
-					</View> */}
-				{/* </Text>
-			)} */}
+	
 			{item.end && (
 				<Text
 					style={{
-						marginLeft: 40,
+						// marginLeft: 40,
 						position: "absolute",
 						backgroundColor: "#409fff",
-						left: 230,
+						left: '90%',
 						top: 20,
 						borderRadius: 50,
 						width: 20,
