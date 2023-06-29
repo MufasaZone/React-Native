@@ -15,6 +15,9 @@ export default function App() {
 				<View style={styles.incontainer}>
 					<Body />
 					{/* <Test /> */}
+					<Text>
+						This is from IglooNGN
+					</Text>
 					<StatusBar style="auto" />
 				</View>
 			</ScrollView>
